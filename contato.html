@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Top</title>
+    <link rel="stylesheet" href="estilizacao_pag_con.css">
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="imagens/Logo.png" alt="Logo On Top" class="logo">
+        </figure>
+        
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Entre em Contato</h2>
+            <article>
+                <p>
+                    Entre em contato com a equipe da On Top. Preencha o formulário abaixo para solicitar suporte online ou agendar um atendimento presencial.
+                </p>
+            </article>
+            <article>
+                <h3>Horário de Atendimento</h3>
+                <li>
+                    <ul>Segunda a Sexta: 06h00 às 18h00</ul>
+                    <ul>Sábado: 08h00 às 14h00</ul>
+                </li>
+            </article>
+            <article>
+                <h3>Formulário de Atendimento</h3>
+                <form>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required><br><br>
+
+                    <label for="email">Email para Contato:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="telefone">Número para Contato:</label>
+                    <input type="text" id="telefone" name="telefone" required><br><br>
+
+                    <label>Tipo de Atendimento</label><br>
+
+                    <label class="radio">
+                        <input type="radio" id="online" name="atendimento" value="online">
+                        Suporte Online<br>
+                    </label>
+            
+                    <label class="radio">
+                        <input type="radio" id="presencial" name="atendimento" value="presencial">
+                        Suporte Presencial<br><br>
+                    </label>
+
+                    <label for="equipamento">Equipamento:</label>
+                    <input type="text" id="equipamento" name="equipamento" required><br><br>
+
+                    <label for="descricao">Descrição do Problema:</label>
+                    <input type="text" id="descricao" name="descricao" required><br><br>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Endereço: Rua Curitiba, 123 - Centro, Planalto - PR</p>
+        <p>Telefone: +55 (46) 99935-5496</p>
+        <p>E-mail: erik.bryan0130@gmail.com</p>
+        <p>&copy; 2026 On Top. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
